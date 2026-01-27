@@ -1,0 +1,101 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Indie Flower", cursive;
+      font-weight: 400;
+      font-style: normal;
+}
+
+body {
+      background: #743ffb;
+      background: radial-gradient(circle, rgba(116, 63, 251, 1) 63%, rgba(237, 70, 252, 1) 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+
+      }
+
+
+#container {
+      background-color: cornsilk;
+      display: flex;
+      width: 75vw;
+      height: 90vh;
+      display: flex;
+      padding: 16px;
+      flex-direction: row;
+      border-radius: 12px;
+}
+
+#left {
+      flex: 1;
+      margin: 4px;
+
+
+}
+
+#right {
+      background-image: url(../../assets/OIP.jpeg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: aliceblue;
+      flex: 1;
+      height: 100%;
+      border-radius: 12px;
+      padding: 12px;
+}
+
+
+
+#header-container {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+
+}
+
+#header-title {
+      font-size: 16px;
+
+}
+
+#main {
+      font-size: 20px;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+      }
+
+#label {
+      font-size:large;
+      
+}
+
+#input-text {
+      margin-top: 1rem;
+      margin-bottom: 0,5rem;
+      height: 3rem;
+      width: 10rem;
+      display: flex;
+      flex-direction: column;
+      border: 1px #ccc;
+      padding-left: 6px;
+      font-size: 12px;
+}
+
+#btn-signin {
+      margin-top: 1.5rem;
+      height: 36px;
+      border-radius: 12px;
+      border: solid 1px #ccc;
+      background-color: plum;
+      width: 74px;
+      margin-bottom: 4rem;
+}
+
+
+
+      
+}
