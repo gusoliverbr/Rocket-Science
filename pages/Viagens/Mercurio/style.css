@@ -27,7 +27,7 @@ body {
 #container {
       background-color: rgb(253, 241, 193);
       width: 350px;
-      height: 85vh;
+      height: 75vh;
       display: flex;
       padding: 8px;
       flex-direction: row;

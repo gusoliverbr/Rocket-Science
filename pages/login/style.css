@@ -20,7 +20,7 @@ body {
 #container {
       background-color: rgb(253, 241, 193);
       width: 275px;
-      height: 85vh;
+      height: 80vh;
       border-radius: 18px;
       display: flex;
       flex-direction: row;
