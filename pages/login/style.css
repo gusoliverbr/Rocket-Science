@@ -18,17 +18,18 @@ body {
 }
 
 #container {
-      background-color: cornsilk;
-      width: 60vw;
-      height: 80vh;
+      background-color: rgb(253, 241, 193);
+      width: 275px;
+      height: 85vh;
       border-radius: 18px;
       display: flex;
       flex-direction: row;
-      padding: 16px;
+      padding: 8px;
+
 }
 
 #left {
-      margin: 4px;
+      margin: 2px;
       flex: 1;
       height: 80%;
       border-radius: 8px;
@@ -36,6 +37,7 @@ body {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
+
 
 }
 
@@ -47,8 +49,8 @@ body {
       color: aliceblue;
       flex: 1;
       height: 100%;
-      border-radius: 12px;
-      padding: 12px;
+      border-radius: 14px;
+      padding: 8px;
       display: none;
 }
 
@@ -59,11 +61,12 @@ body {
       justify-content: space-around;
       border-radius: 8px;
       flex-wrap: nowrap;
+      ;
 }
 
 
 #header-title {
-      font-size: 20px;
+      font-size: 16px;
 }
 
 
@@ -76,8 +79,8 @@ body {
 
 #main {
       margin-bottom: 1rem;
-      font-size: x-large;
-      width: 100%;
+      font-size: large;
+      width: 80%;
 }
 
 #final {
@@ -87,13 +90,15 @@ body {
 
 #title {
       margin-bottom: 1rem;
+      font-size: larger;
 }
 
 #sign {
       margin-bottom: 1rem;
       display: flex;
       flex-direction: row;
-      gap: 4px;
+      gap: 1px;
+      font-size: 12px;
 }
 
 .input-container {
@@ -102,7 +107,7 @@ body {
       height: 2rem;
       display: flex;
       flex-direction: column;
-      border: 1px #ccc;
+      border: 2px #ccc;
       padding-left: 8px;
 }
 
@@ -112,14 +117,15 @@ body {
       height: 2rem;
       display: flex;
       flex-direction: column;
-      border: 1px #ccc;
-      padding-left: 8px;
+      border: 1px solid #252525;
+      padding-left: 4px;
 }
 
 #forgot-password {
       color: #939393;
       cursor: pointer;
       text-decoration: none;
+      font-size: 12px;
 
 }
 
@@ -131,38 +137,67 @@ remember-label {
       margin-top: 2rem;
       height: 48px;
       border-radius: 12px;
-      border: solid 1px #ccc;
+      border: solid 1px #1a1818;
       background-color: plum;
       width: 96px;
 }
 
 #paragrafo {
-      color: #ccc;
-
+      color: #161616;
+      font-size: 15px;
 }
 
 #link {
       color: plum;
       cursor: pointer;
-      text-decoration: none;
+
 }
 
 
-@media (min-width: 1024px) #right {
-      width:
-}
+@media (min-width: 680px) {
+      #container {
+            width: 60vw;
+      }
 
-@media (min-width:600px) {
+
+      #left {
+            flex: 6;
+      }
+
       #right {
             display: block;
-            
+            background-image: url(../../assets/OIP.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            flex: 7;
       }
 
+      #paragrafo {
+            font-size: 55;
+      }
+
+}
+
+@media (min-width:1024px) {
       #container {
-            background-color: cornsilk;
-            width: auto;
-
-
-
-
+            width: 800px;
       }
+
+      #left {
+            flex: 4;
+      }
+
+      #right {
+            display: block;
+            background-image: url(../../assets/OIP.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            flex: 8;
+      }
+
+      #paragrafo {
+            font-size: 20;
+      }
+}

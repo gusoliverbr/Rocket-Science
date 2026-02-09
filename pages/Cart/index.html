@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../../assets/rocket.png" type="image/x-icon">
+    <title>Carrinho de Compras</title>
+</head>
+   
+<body>
+
+<header class="header">
+     <img src="../../assets/rocket.png" alt="rocket logo" height="35" width="35">
+                <h1 id="header-title">Rocket science®</h1>
+    <span class="cart-icon">🛒 Carrinho</span>
+</header>
+
+<main class="container">
+
+    <section class="cart">
+        <h2>Carrinho</h2>
+
+        <div class="cart-item">
+            <img src="../../assets/mercury.jpg" alt="Mercúrio">
+
+            <div class="item-details">
+                <h3>Mercúrio</h3>
+                <p>Ótimo para curtir o sol de perto</p>
+                <span class="price">U$D 1.000.000</span>
+            </div>
+
+            <div class="item-actions">
+                <input type="number" min="1" value="1">
+                <button class="remove">Remover</button>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <img src="../../assets/venus.jpg" alt="venus">
+
+            <div class="item-details">
+                <h3>Vênus</h3>
+                <p>Logo ali...</p>
+                <span class="price">U$D 500.000</span>
+            </div>
+
+            <div class="item-actions">
+                <input type="number" min="1" value="2">
+                <button class="remove">Remover</button>
+            </div>
+        </div>
+    </section>
+
+    <aside class="summary">
+        <h2>Resumo</h2>
+
+        <div class="summary-row">
+            <span>Subtotal</span>
+            <span>U$D 2.000.000</span>
+        </div>
+
+        <div class="summary-row">
+            <span>Frete</span>
+            <span>U$D 0</span>
+        </div>
+
+        <div class="summary-row total">
+            <span>Total</span>
+            <span>U$D 2.000.000</span>
+        </div>
+
+        <button class="checkout">Finalizar Compra</button>
+    </aside>
+
+</main>
+
+</body>
+</html>
